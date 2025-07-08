@@ -13,6 +13,8 @@ import {
   Twitter,
   TrendingUp,
   Activity,
+  CheckCircle,
+  Star,
 } from "lucide-react"
 import Link from "next/link"
 
@@ -134,6 +136,19 @@ export default function LandingPage() {
                       </div>
                     </div>
                   </div>
+
+                  <div className="bg-white rounded-lg p-4 shadow-sm border border-gray-200">
+                    <div className="flex items-center justify-between mb-3">
+                      <div className="flex items-center space-x-2">
+                        <TrendingUp className="h-5 w-5 text-blue-600" />
+                        <span className="font-medium text-gray-900">Server Growth</span>
+                      </div>
+                    </div>
+                    <div className="flex items-center space-x-2">
+                      <div className="text-2xl font-bold text-gray-900">+127</div>
+                      <div className="text-sm text-green-600">↗ 12% this week</div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -163,15 +178,15 @@ export default function LandingPage() {
               <CardContent>
                 <ul className="text-sm text-gray-600 space-y-2">
                   <li className="flex items-center">
-                    <div className="w-1.5 h-1.5 bg-gray-400 rounded-full mr-3"></div>
+                    <CheckCircle className="w-4 h-4 text-green-600 mr-3" />
                     Automated ticket management
                   </li>
                   <li className="flex items-center">
-                    <div className="w-1.5 h-1.5 bg-gray-400 rounded-full mr-3"></div>
+                    <CheckCircle className="w-4 h-4 text-green-600 mr-3" />
                     Custom response system
                   </li>
                   <li className="flex items-center">
-                    <div className="w-1.5 h-1.5 bg-gray-400 rounded-full mr-3"></div>
+                    <CheckCircle className="w-4 h-4 text-green-600 mr-3" />
                     User reporting features
                   </li>
                 </ul>
@@ -191,15 +206,15 @@ export default function LandingPage() {
               <CardContent>
                 <ul className="text-sm text-gray-600 space-y-2">
                   <li className="flex items-center">
-                    <div className="w-1.5 h-1.5 bg-gray-400 rounded-full mr-3"></div>
+                    <CheckCircle className="w-4 h-4 text-green-600 mr-3" />
                     Suspicious account filtering
                   </li>
                   <li className="flex items-center">
-                    <div className="w-1.5 h-1.5 bg-gray-400 rounded-full mr-3"></div>
+                    <CheckCircle className="w-4 h-4 text-green-600 mr-3" />
                     Advanced fraud protection
                   </li>
                   <li className="flex items-center">
-                    <div className="w-1.5 h-1.5 bg-gray-400 rounded-full mr-3"></div>
+                    <CheckCircle className="w-4 h-4 text-green-600 mr-3" />
                     Raid protection
                   </li>
                 </ul>
@@ -219,15 +234,15 @@ export default function LandingPage() {
               <CardContent>
                 <ul className="text-sm text-gray-600 space-y-2">
                   <li className="flex items-center">
-                    <div className="w-1.5 h-1.5 bg-gray-400 rounded-full mr-3"></div>
+                    <CheckCircle className="w-4 h-4 text-green-600 mr-3" />
                     Custom welcome messages
                   </li>
                   <li className="flex items-center">
-                    <div className="w-1.5 h-1.5 bg-gray-400 rounded-full mr-3"></div>
+                    <CheckCircle className="w-4 h-4 text-green-600 mr-3" />
                     Invite tracking system
                   </li>
                   <li className="flex items-center">
-                    <div className="w-1.5 h-1.5 bg-gray-400 rounded-full mr-3"></div>
+                    <CheckCircle className="w-4 h-4 text-green-600 mr-3" />
                     Auto role assignment
                   </li>
                 </ul>
@@ -247,15 +262,15 @@ export default function LandingPage() {
               <CardContent>
                 <ul className="text-sm text-gray-600 space-y-2">
                   <li className="flex items-center">
-                    <div className="w-1.5 h-1.5 bg-gray-400 rounded-full mr-3"></div>
+                    <CheckCircle className="w-4 h-4 text-green-600 mr-3" />
                     Time-based triggers
                   </li>
                   <li className="flex items-center">
-                    <div className="w-1.5 h-1.5 bg-gray-400 rounded-full mr-3"></div>
+                    <CheckCircle className="w-4 h-4 text-green-600 mr-3" />
                     Member count milestones
                   </li>
                   <li className="flex items-center">
-                    <div className="w-1.5 h-1.5 bg-gray-400 rounded-full mr-3"></div>
+                    <CheckCircle className="w-4 h-4 text-green-600 mr-3" />
                     Web giveaway system
                   </li>
                 </ul>
@@ -275,15 +290,15 @@ export default function LandingPage() {
               <CardContent>
                 <ul className="text-sm text-gray-600 space-y-2">
                   <li className="flex items-center">
-                    <div className="w-1.5 h-1.5 bg-gray-400 rounded-full mr-3"></div>
+                    <CheckCircle className="w-4 h-4 text-green-600 mr-3" />
                     Live server statistics
                   </li>
                   <li className="flex items-center">
-                    <div className="w-1.5 h-1.5 bg-gray-400 rounded-full mr-3"></div>
+                    <CheckCircle className="w-4 h-4 text-green-600 mr-3" />
                     Feature toggles
                   </li>
                   <li className="flex items-center">
-                    <div className="w-1.5 h-1.5 bg-gray-400 rounded-full mr-3"></div>
+                    <CheckCircle className="w-4 h-4 text-green-600 mr-3" />
                     Configuration management
                   </li>
                 </ul>
@@ -303,15 +318,15 @@ export default function LandingPage() {
               <CardContent>
                 <ul className="text-sm text-gray-600 space-y-2">
                   <li className="flex items-center">
-                    <div className="w-1.5 h-1.5 bg-gray-400 rounded-full mr-3"></div>
+                    <CheckCircle className="w-4 h-4 text-green-600 mr-3" />
                     One-click Discord integration
                   </li>
                   <li className="flex items-center">
-                    <div className="w-1.5 h-1.5 bg-gray-400 rounded-full mr-3"></div>
+                    <CheckCircle className="w-4 h-4 text-green-600 mr-3" />
                     Guided configuration
                   </li>
                   <li className="flex items-center">
-                    <div className="w-1.5 h-1.5 bg-gray-400 rounded-full mr-3"></div>
+                    <CheckCircle className="w-4 h-4 text-green-600 mr-3" />
                     24/7 support
                   </li>
                 </ul>
@@ -330,22 +345,100 @@ export default function LandingPage() {
           </div>
 
           <div className="grid md:grid-cols-4 gap-8">
-            <div className="text-center">
+            <div className="text-center p-6 bg-gray-50 rounded-xl">
               <div className="text-4xl font-bold text-gray-900 mb-2">47,382</div>
               <div className="text-gray-600">Active Users</div>
+              <div className="text-sm text-green-600 mt-1">↗ +12% this month</div>
             </div>
-            <div className="text-center">
+            <div className="text-center p-6 bg-gray-50 rounded-xl">
               <div className="text-4xl font-bold text-gray-900 mb-2">2,147,483</div>
               <div className="text-gray-600">Raids Blocked</div>
+              <div className="text-sm text-green-600 mt-1">↗ +847 today</div>
             </div>
-            <div className="text-center">
+            <div className="text-center p-6 bg-gray-50 rounded-xl">
               <div className="text-4xl font-bold text-gray-900 mb-2">1,247</div>
               <div className="text-gray-600">Discord Servers</div>
+              <div className="text-sm text-green-600 mt-1">↗ +23 this week</div>
             </div>
-            <div className="text-center">
+            <div className="text-center p-6 bg-gray-50 rounded-xl">
               <div className="text-4xl font-bold text-gray-900 mb-2">99.9%</div>
               <div className="text-gray-600">Uptime</div>
+              <div className="text-sm text-green-600 mt-1">Last 30 days</div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Testimonials Section */}
+      <section className="bg-gray-50 py-20">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl font-bold mb-4 text-gray-900">What Communities Say</h2>
+            <p className="text-xl text-gray-600">Hear from server owners who trust Dash</p>
+          </div>
+
+          <div className="grid md:grid-cols-3 gap-8">
+            <Card className="bg-white border-gray-200">
+              <CardContent className="p-6">
+                <div className="flex items-center mb-4">
+                  {[...Array(5)].map((_, i) => (
+                    <Star key={i} className="w-4 h-4 text-yellow-400 fill-current" />
+                  ))}
+                </div>
+                <p className="text-gray-600 mb-4">
+                  "Dash has completely transformed our server moderation. The raid protection alone has saved us
+                  countless hours of cleanup."
+                </p>
+                <div className="flex items-center">
+                  <div className="w-10 h-10 bg-gray-200 rounded-full mr-3"></div>
+                  <div>
+                    <div className="font-semibold text-gray-900">Alex Chen</div>
+                    <div className="text-sm text-gray-600">Gaming Community Owner</div>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+
+            <Card className="bg-white border-gray-200">
+              <CardContent className="p-6">
+                <div className="flex items-center mb-4">
+                  {[...Array(5)].map((_, i) => (
+                    <Star key={i} className="w-4 h-4 text-yellow-400 fill-current" />
+                  ))}
+                </div>
+                <p className="text-gray-600 mb-4">
+                  "The support ticket system is incredible. Our members get help faster and our staff can focus on
+                  building the community."
+                </p>
+                <div className="flex items-center">
+                  <div className="w-10 h-10 bg-gray-200 rounded-full mr-3"></div>
+                  <div>
+                    <div className="font-semibold text-gray-900">Sarah Johnson</div>
+                    <div className="text-sm text-gray-600">Tech Community Admin</div>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+
+            <Card className="bg-white border-gray-200">
+              <CardContent className="p-6">
+                <div className="flex items-center mb-4">
+                  {[...Array(5)].map((_, i) => (
+                    <Star key={i} className="w-4 h-4 text-yellow-400 fill-current" />
+                  ))}
+                </div>
+                <p className="text-gray-600 mb-4">
+                  "Setup was incredibly easy and the dashboard makes managing everything so simple. Highly recommend!"
+                </p>
+                <div className="flex items-center">
+                  <div className="w-10 h-10 bg-gray-200 rounded-full mr-3"></div>
+                  <div>
+                    <div className="font-semibold text-gray-900">Mike Rodriguez</div>
+                    <div className="text-sm text-gray-600">Art Community Moderator</div>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
           </div>
         </div>
       </section>
